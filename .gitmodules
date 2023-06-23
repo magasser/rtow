@@ -1,0 +1,6 @@
+[submodule "rtow/libs/glm"]
+	path = rtow/libs/glm
+	url = https://github.com/g-truc/glm
+[submodule "rtow/libs/jsoncpp"]
+	path = rtow/libs/jsoncpp
+	url = https://github.com/open-source-parsers/jsoncpp.git

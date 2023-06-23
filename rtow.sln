@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rtow", "rtow\rtow.vcxproj", "{592DABFC-8B71-4AB0-8381-289D3A87740D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rtow", "rtow\rtow.vcxproj", "{B00E1AD4-39AA-493D-BE57-2003B96D71FE}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4D539D6B-A500-4E72-B3A3-C396760AD82E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2702A87B-3B18-48CD-AA84-F3BAE7BE711A}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
+		.gitmodules = .gitmodules
+		build_libs.bat = build_libs.bat
 		README.md = README.md
 	EndProjectSection
 EndProject
@@ -19,19 +21,19 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{592DABFC-8B71-4AB0-8381-289D3A87740D}.Debug|x64.ActiveCfg = Debug|x64
-		{592DABFC-8B71-4AB0-8381-289D3A87740D}.Debug|x64.Build.0 = Debug|x64
-		{592DABFC-8B71-4AB0-8381-289D3A87740D}.Debug|x86.ActiveCfg = Debug|Win32
-		{592DABFC-8B71-4AB0-8381-289D3A87740D}.Debug|x86.Build.0 = Debug|Win32
-		{592DABFC-8B71-4AB0-8381-289D3A87740D}.Release|x64.ActiveCfg = Release|x64
-		{592DABFC-8B71-4AB0-8381-289D3A87740D}.Release|x64.Build.0 = Release|x64
-		{592DABFC-8B71-4AB0-8381-289D3A87740D}.Release|x86.ActiveCfg = Release|Win32
-		{592DABFC-8B71-4AB0-8381-289D3A87740D}.Release|x86.Build.0 = Release|Win32
+		{B00E1AD4-39AA-493D-BE57-2003B96D71FE}.Debug|x64.ActiveCfg = Debug|x64
+		{B00E1AD4-39AA-493D-BE57-2003B96D71FE}.Debug|x64.Build.0 = Debug|x64
+		{B00E1AD4-39AA-493D-BE57-2003B96D71FE}.Debug|x86.ActiveCfg = Debug|Win32
+		{B00E1AD4-39AA-493D-BE57-2003B96D71FE}.Debug|x86.Build.0 = Debug|Win32
+		{B00E1AD4-39AA-493D-BE57-2003B96D71FE}.Release|x64.ActiveCfg = Release|x64
+		{B00E1AD4-39AA-493D-BE57-2003B96D71FE}.Release|x64.Build.0 = Release|x64
+		{B00E1AD4-39AA-493D-BE57-2003B96D71FE}.Release|x86.ActiveCfg = Release|Win32
+		{B00E1AD4-39AA-493D-BE57-2003B96D71FE}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {88BF419D-85EB-4D25-9613-7AC9CF9701CB}
+		SolutionGuid = {0BAA3906-49EB-4587-B23F-7553C4903FF6}
 	EndGlobalSection
 EndGlobal
